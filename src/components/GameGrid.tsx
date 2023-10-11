@@ -22,7 +22,8 @@ const GameGrid = ({ querySelector }: props) => {
                 <LoaderSkeletons />
               </CommonWrapper>
             );
-          })}
+          })} 
+        {/* Dummy Text */}
         {data.map((item) => (
           <CommonWrapper key={item.id}>
             <GameCards item={item} />
